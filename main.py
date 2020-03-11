@@ -1,16 +1,13 @@
 # It's a script that analize your input and replies according with the feeling shared
 # But the only adjectives that the bot know is:
-#Fine, well, bad and sad.
+#               Fine, well, bad and sad.
 # It will be the answer for the question "how are u?".
 # The diferencial fact is that the bot do not use structurers if-else to do it.
 # The bot use a simple neural_network to think the answers.
 
-
-#---------------- imports
 from numpy import exp, array, random, dot
 from math import sqrt, trunc
 
-#-------------------------------- classes
 class neural_network:
 # cria os neurons
     def __init__(self):
